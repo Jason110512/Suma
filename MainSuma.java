@@ -13,9 +13,10 @@ public class MainSuma{
          y=op.nextInt();
 
          Suma evaluar = new Suma();
-         evaluar. x= x;
-         evaluar.y= y;
-        evaluar.mostrarResultado();
-    }
+         evaluar.setX(x);
+         evaluar.setY(y);
+           System.out.println(evaluar.mostrarResultado());
+           System.out.println(evaluar);
+}
 
 }
